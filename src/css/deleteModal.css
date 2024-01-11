@@ -1,0 +1,22 @@
+.modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-title {
+    margin-bottom: 0;
+}
+.modal-delete-warn {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.btns-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btns-wrapper button {
+    width: 50%;
+}

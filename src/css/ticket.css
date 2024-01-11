@@ -1,0 +1,54 @@
+.ticket-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(59, 65, 69, 0.20);
+    border-radius: 15px;
+    padding: 10px;
+    gap: .7rem;
+}
+.ticket-left-side {
+    display: flex;
+    width: 65%;
+    gap: .7rem;
+}
+.ticket-about-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-width: 10%;
+    max-width: 90%;
+    gap: .7rem;
+}
+.ticket-right-side {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+.status, .ticket-change, .ticket-delete {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.status {
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    background: rgba(134, 117, 253, 0.30);
+}
+
+.status-checked {
+    background-image: url('../img/Group\ 170.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.ticket-name {
+    text-align:left ;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+.ticket-description {
+    display: none;
+}
+.active {
+    display: block;
+}
